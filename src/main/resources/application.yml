@@ -1,0 +1,12 @@
+server:
+  port: 12001
+
+log.path: /opt/server/voicetransl/voicetransl
+
+tempdir: D://opt/server/voicetransl/
+
+spring:
+  servlet:
+    multipart:
+      maxFileSize: 20MB
+      maxRequestSize: 100MB
